@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <label for="feedback-type">Select Feedback Type:</label>
+        <select id="feedback-type">
+            <option value="positive">Great</option>
+            <option value="positive">Good</option>
+            <option value="neutral">Alright</option>
+            <option value="negative">Bad</option>
+        </select>
+        <hr>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" placeholder="Enter your message here..."></textarea>
+        <hr>
+
+        <label for="rating">Select Rating:</label>
+        <label><input type="radio" name="rating" value="1"> 1</label>
+        <label><input type="radio" name="rating" value="2"> 2</label>
+        <label><input type="radio" name="rating" value="3"> 3</label>
+        <hr>
+
+        <label for="age">Enter Your Age:</label>
+        <input type="number" id="age" min="10" max="100" placeholder="Enter your age" style="width: 10%;">
+        <hr>
+
+        <label for="email">Enter Your EmailID:</label>
+        <input type="email" id="email" required placeholder="Enter your email" >
+        <hr>
+
+        <label for="pass">Enter Your Password:</label>
+        <input type="password" id="pass" minlength="8" required placeholder="Enter your password">
+        <hr>
+
+        <label for="url">Enter Website URL:</label>
+        <input type="url" id="url" placeholder="Enter website url (optional)">
+        <hr>
+
+        <input type="checkbox" id="terms" required>
+        <label for="terms">I agree to the terms & conditions</label>
+        <hr>
+
+        <button type="submit">Submit</button>
+        <hr>
+    </form>
+</body>
+</html>
